@@ -7,13 +7,13 @@ public class PrimeNumber {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         boolean isPrime = true;
-        if (n < 2) isPrime=false;
+        if (n < 2) isPrime = false;
         for (int i = 2; i * i <= n; i++) {
             if (n % i == 0) {
                 isPrime = false;
                 break;
             }
         }
-        System.out.print("isPrime "+isPrime);
+        System.out.print("isPrime " + isPrime);
     }
 }

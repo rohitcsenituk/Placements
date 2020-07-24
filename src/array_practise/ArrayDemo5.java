@@ -1,6 +1,7 @@
 package array_practise;
 
 import java.util.Scanner;
+
 /*
 sum and product of element in array
  */

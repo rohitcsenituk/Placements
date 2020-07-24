@@ -3,14 +3,13 @@ package patterns;
 import java.util.Scanner;
 
 /**
- *    pattern 3
- *
- *    * * * * *
- *    * * * *
- *    * * *
- *    * *
- *    *
- *
+ * pattern 3
+ * <p>
+ * * * * * *
+ * * * * *
+ * * * *
+ * * *
+ * *
  */
 
 public class Pattern3 {

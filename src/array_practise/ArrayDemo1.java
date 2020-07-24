@@ -17,9 +17,9 @@ public class ArrayDemo1 {
 
         for (int arr :
                 a) {
-            if (arr <0 ) System.out.println(arr);
-           // else if (arr == 0) System.out.println(arr);
-            else if (arr%2 == 0) System.out.println(arr);
+            if (arr < 0) System.out.println(arr);
+                // else if (arr == 0) System.out.println(arr);
+            else if (arr % 2 == 0) System.out.println(arr);
         }
     }
 

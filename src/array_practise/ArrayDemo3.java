@@ -1,6 +1,7 @@
 package array_practise;
 
 import java.util.Scanner;
+
 /**
  * find negative, positive, zero, odd, even.
  */
@@ -11,29 +12,26 @@ public class ArrayDemo3 {
         int odd = 0;
         int even = 0;
         int zero = 0;
-        Scanner scan=new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("Enter Size of array");
-        int n=scan.nextInt();
-        int[] a=new int[n];
-        for (int i = 0; i <n ; i++) {
-            a[i]=scan.nextInt();
+        int n = scan.nextInt();
+        int[] a = new int[n];
+        for (int i = 0; i < n; i++) {
+            a[i] = scan.nextInt();
 
-            if(a[i]>0){
+            if (a[i] > 0) {
                 pos++;
-            }
-            else if(a[i]<0){
+            } else if (a[i] < 0) {
                 neg++;
-            }
-            else{
+            } else {
                 zero++;
             }
-            if(a[i]%2==0){
+            if (a[i] % 2 == 0) {
                 even++;
-            }
-            else{
+            } else {
                 odd++;
             }
         }
-        System.out.println("Positive : "+pos+"\nNegative : "+neg+"\nZero : "+zero+"\nodd : "+odd+"\neven : "+even);
+        System.out.println("Positive : " + pos + "\nNegative : " + neg + "\nZero : " + zero + "\nodd : " + odd + "\neven : " + even);
     }
 }

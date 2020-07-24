@@ -3,12 +3,12 @@ package patterns;
 import java.util.Scanner;
 
 /**
- *  pattern 4
- *  * * * * *
- *  * * * *
- *  * * *
- *  * *
- *  *
+ * pattern 4
+ * * * * * *
+ * * * * *
+ * * * *
+ * * *
+ * *
  */
 public class Pattern4 {
     public static void main(String[] args) {
