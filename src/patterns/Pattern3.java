@@ -4,14 +4,12 @@ import java.util.Scanner;
 
 /**
  * pattern 3
- * <p>
  * * * * * *
  * * * * *
  * * * *
  * * *
  * *
  */
-
 public class Pattern3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
